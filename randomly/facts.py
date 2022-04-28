@@ -1,8 +1,9 @@
 import requests
 from requests.exceptions import RequestException
+from typing import Literal
 
 
-def generate_random_fact(output_format: str, language: str) -> str:
+def generate_random_fact(output_format: str, language: Literal["en", "de"]) -> str:
     """
     Generates a random fact from uselessfacts.jsph.pl
 

@@ -17,6 +17,7 @@ def generate_poisson_points(
         np.hstack: A haystack... maybe...
 
     """
+    # Define bounds
     dx = bounds[2] - bounds[0]
     dy = bounds[3] - bounds[1]
 

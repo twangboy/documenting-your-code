@@ -13,11 +13,6 @@ def plot_palette(model: str) -> Figure:
     Returns:
         Figure: A matplotlib figure object
     """
-    # """
-    #
-    # :param model:
-    # :return:
-    # """
     # Validate the model
     if model not in {"default", "ui"}:
         raise ValueError(f"{model} is not supported.")

@@ -15,6 +15,7 @@ def generate_password(chars: int, punctuation: bool, invalid_chars: Optional[Ite
     Returns:
         str: A randomized password
     """
+    # Valid characters letters and numbers
     valid_chars = string.ascii_letters + string.digits
 
     # include punctuation of passed
