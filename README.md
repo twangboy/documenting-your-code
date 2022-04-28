@@ -2,7 +2,7 @@
 
 This repo is a starting place for a tutorial/workshop about documenting your code.
 
-The repo does _not_ contain all of the material from the tutorial. The tutorial is designed to be taught by an instructor. This repo contains code that is used as part of that instruction. In the future, I do hope to translate the material into a self-guided tutorial.
+The repo does _not_ contain all the material from the tutorial. The tutorial is designed to be taught by an instructor. This repo contains code that is used as part of that instruction. In the future, I do hope to translate the material into a self-guided tutorial.
 
 ## Learner prerequisites
 
